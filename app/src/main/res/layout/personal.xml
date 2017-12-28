@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11ffffff"
+
+    >
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/shezhi1"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        >
+
+
+
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/xuxian1"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/xuxian3"
+            android:layout_centerInParent="true"
+            />
+
+
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/login"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ch"
+            app:riv_border_color="#b1b1b1"
+            app:riv_border_width="1dp"
+            app:riv_corner_radius="10dp"
+            app:riv_mutate_background="true"
+            app:riv_oval="true"
+            app:riv_tile_mode="repeat"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:text="八取"
+        android:textColor="#61e4ad"
+
+        android:textSize="16sp"
+         />
+
+    <TextView
+        android:id="@+id/qianming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:text="孤独如鲸之搁浅"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+       />
+
+    <!--<TextView-->
+    <!--android:layout_width="90dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="124dp"-->
+    <!--android:background="@drawable/buttonstyle"-->
+    <!--android:text="登录"-->
+    <!--android:textSize="15sp"-->
+    <!--android:gravity="center"-->
+    <!--/>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收到的赞赏"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="一"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="|  "
+            android:textColor="#55000000"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的粉丝"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="一"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="247dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myxiaoxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:drawableLeft="@mipmap/xiaoxi"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="我的消息"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/huati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="22dp"
+            android:drawableLeft="@mipmap/huati"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="全部话题"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="22dp"
+            android:drawableLeft="@mipmap/jianwen"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="我的文章"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="22dp"
+            android:drawableLeft="@mipmap/xiaoxi"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="我的关注"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="22dp"
+            android:drawableLeft="@mipmap/fenxiang"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="分享APP"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/guanbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="547dp"
+        android:src="@mipmap/guanbi"
+
+        />
+
+</RelativeLayout>
+
+
+
